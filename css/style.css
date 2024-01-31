@@ -127,3 +127,13 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+@media screen and (max-width: 768px) {
+    *{
+        max-width: 768px;
+    }
+
+    h2 {
+        padding-top: 3rem;
+    }
+}
