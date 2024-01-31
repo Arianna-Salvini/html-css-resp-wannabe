@@ -217,5 +217,9 @@ img {
     img {
         margin-top: 2rem;
     }
+    .why-us {
+        background: #222222;
+        margin: -2.7rem 0;
+    }
 
 }
