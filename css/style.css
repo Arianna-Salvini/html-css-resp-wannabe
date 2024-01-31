@@ -131,10 +131,6 @@ img {
 
 @media screen and (max-width: 768px) {
 
-    * {
-        max-width: 768px;
-    }
-
     .container {
         width: 100%;
     }
@@ -156,7 +152,7 @@ img {
 
     .col {
         padding-left: 0.7rem;
-        padding-right:0.7rem;
+        padding-right: 0.7rem;
     }
 
     .site-header {
@@ -184,6 +180,42 @@ img {
 
     .why-us li {
         margin-bottom: 2.2rem;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+   
+    h2, h3, h4{
+        padding: 0.8rem 0;
+    }
+
+    img {
+        margin-top: 2rem;
     }
 
 }
